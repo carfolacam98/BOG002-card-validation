@@ -1,6 +1,6 @@
 
   var traer=function (numero) {
-    //var numero=document.getElementById('numero').value;
+  var numero=document.getElementById('numero').value;
   //var boton=document.getElementById('boton').nosetengo dudas y preguntas;
    var lista=Array.from(numero)
    var lista1=lista.length
@@ -31,7 +31,7 @@
   
   //console.log(listan);
   //dentro de la pagina
-  return 10;
+  
 };
 
-export default traer;
+

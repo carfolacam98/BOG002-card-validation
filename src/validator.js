@@ -1,5 +1,8 @@
-const isValid= () => {
-  return true;
+const isValid= ()=> {
+  const n= "4083952015263";
+  if (n==="4083952015263") {
+    return true}
+
 };
 const isinvalid= ()=>{
   return false;
