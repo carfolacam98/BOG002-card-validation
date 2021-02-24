@@ -1,10 +1,13 @@
 
-  var traer= function (numero) {
+  var traer= function () {
   var numero =document.getElementById('numero').value;
   //var boton=document.getElementById('boton').nosetengo dudas y preguntas;
    var lista=Array.from(numero)
    var lista1=lista.length
    var listn=[]
+   var n1=0
+   
+   var n3=""
    
 
    if  (lista1 ===10){
@@ -14,10 +17,21 @@
      }
      
      var listaalreves = listn.reverse();
-     console.log(listn);
-    listn[0,2,4,6,8]=(listn[0,2,4,6,8])*2
+     
+     
+     for (var i in listn){
+       if (i%2==0){
+         listn[i]=2*listn[i]}
 
-   } else{
+       if (listn[i]>9){
+          var n1=listn[i]%10
+          var n3= parseInt(listn[i]/10)
+          listn[i]= n3+ n1
+      }
+      }
+      }
+       
+    else{
      alert("NOP");
    }
 
@@ -26,9 +40,13 @@
   }
 
 
-  console.log(numero+1);
+  //console.log(numero+1);
+  
+  console.log(lista)
   console.log(listn);
-  console.log(listaalreves)
+  console.log(n1);
+  
+  console.log(n3);
   //console.log(listan);
   //dentro de la pagina
   
