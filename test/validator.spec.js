@@ -1,20 +1,15 @@
 // importamos el objeto `validator`, que contiene las funciones `isValid` y `maskify`
 //aca se importan funciones no archivos jiji
 import validator from '../src/validator';
-import traer from '../src/app';
+
 
 
 describe('validator', () => {
   it('debería ser un objeto', () => {
     expect(typeof validator).toBe('object');
   });
-  it.skip('a ver si ahora si', () => {
-    expect(typeof traer).toBe('function');
-  });
-  it.skip('Deberia ser 10',() => {
-    //esto es porque se mira que retorna la funcion
-    expect(traer(10)).toBe(10);
-  });
+  
+  
 
 
   describe('isValidpruebita', () => {
