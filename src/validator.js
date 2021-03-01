@@ -1,14 +1,28 @@
 const isValid= (numerodetarjeta)=> {
-  var lista=Array.from(numerodetarjeta)
+  var lista=Array.from( numerodetarjeta)
   var numero = numerodetarjeta
   var listn=[]
    var n1=0
    var n3=0
+   var suma=0
    var sumafor=0
   
+   
    if  (lista.length ===15 || lista.length === 16){
+     
+    
+     for (var i in lista){
+       listn[i]=parseInt(lista[i])
+       
+       
+     }
+     
+     var listaalreves = listn.reverse();
+
+     
+     
+     
      for (var i in listn){
-      listn[i]=parseInt(lista[i])
        if (i%2==0){
          listn[i]=2*listn[i]}
 
@@ -17,7 +31,7 @@ const isValid= (numerodetarjeta)=> {
           var n3= parseInt(listn[i]/10)
           listn[i]= n3+ n1
       }
-      sumafor+=listn[i]
+      sumafor=sumafor+listn[i]
       }
        if(sumafor%10==0){
          alert("su tarjeta es valida")
