@@ -4,7 +4,6 @@ const isValid= (numerodetarjeta)=> {
   var listn=[]
    var n1=0
    var n3=0
-   var suma=0
    var sumafor=0
   
    
@@ -12,17 +11,11 @@ const isValid= (numerodetarjeta)=> {
      
     
      for (var i in lista){
-       listn[i]=parseInt(lista[i])
-       
-       
+       listn[i]=parseInt(lista[i]) 
      }
-     
-     var listaalreves = listn.reverse();
-
-     
-     
-     
+              
      for (var i in listn){
+      listn[i]=parseInt(lista[i]) 
        if (i%2==0){
          listn[i]=2*listn[i]}
 
