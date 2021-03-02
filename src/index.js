@@ -1,3 +1,9 @@
+/* eslint-disable no-console */
+
+
+
+
+
 import validator from './validator.js';
 const botonValidar = document.getElementById('boton');
 botonValidar.addEventListener('click',traernumero);
