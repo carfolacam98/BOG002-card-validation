@@ -1,3 +1,4 @@
+/* eslint-disable no-redeclare */
 const isValid= (numerodetarjeta)=> {
   var lista=Array.from( numerodetarjeta)
   var numero = numerodetarjeta
