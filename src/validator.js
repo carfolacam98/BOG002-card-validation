@@ -30,7 +30,7 @@ const isValid= (numerodetarjeta)=> {
        if(sumafor%10==0){
          alert("su tarjeta es valida")
        }
-       else{alert("su tarjeta es invalida")}
+       else{alert("su tarjeta NO es invalida")}
       }
        
     else{
