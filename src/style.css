@@ -72,45 +72,300 @@ h1{
     font-variant: petite-caps;
 }    
 #seccionbebidas{display: none;}
-#registrodedatos{display: none;
-    width: 500px;
-    background: #A269F5;padding:30px;
-    margin: auto; margin-top: 100px;
-    box-sizing: border-box;
-    border-radius: 4px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#registrodedatos div{ background: #F5F28E;
-width: 100%;
-height: 50px;
-box-sizing: border-box;
-margin-bottom: 16px;
-border-radius: 4px;
-text-align: center;
-font-size: xx-large;
-font-style: italic;
 
-}
-.botones{
+#boton4{
     width: 100px;
-    height:90pxpx ;
+    height:100px ;
     box-sizing: border-box;
     box-align: center;
-    margin-left: 40px;
+    border: none; bottom: 90px; left: 450px; 
+    position: fixed; 
+}
+#boton5{
+    width: 100px;
+    height:100px ;
+    box-sizing: border-box;
+    box-align: center;
+    border: none;  bottom: 90px; right: 480px;
+    position: fixed;
+
 }
 
-.controls{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 16px;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
 #boton6{
     width:150px ;
     height: 100px;
     position: fixed;
     left: 20px;
     bottom: 20px;
+    
+    
 }
+#datos{background:#C09CD9;
+    background:linear-gradient(to right,#C09CD9,#04C4D9);
+    background: -webkit-linear-gradient(to right,#C09CD9,#04C4D9);
+    width: 100%; height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+h4{text-align: center;
+    font-size: 700;
+    background:#C09CD9;
+    background:linear-gradient(to right,#C09CD9,#04C4D9);
+    background: -webkit-linear-gradient(to right,#C09CD9,#04C4D9);
+    box-align: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic
+}
+form{
+    background: white ;
+    padding: 40px 0;
+    box-shadow: 0 0 6px o rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 500px;
+    height:400px;
+    display:none;
+    position: relative;
+    top:100px ;
+    left: 400px;
+   
+
+}
+.form{ width: 500px;
+    height:400px ;
+    margin: auto;
+    position: center center;
+    
+
+}
+form .nombre{
+    position: relative;
+    margin: 45px;   
+}
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom:1px solid;
+}
+input:focus{
+    outline:none;
+    color: rgba(red, green, blue, alpha);
+}
+label{
+    color:rgba(red, green, blue, alpha);
+    font-size: 20px;
+    position: absolute; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contenedor{
+    width: 1200px;
+    height: 1600px;
+    background-color:black;
+    border: 5px solid #571006;
+  /* desde la ventana*/
+    margin:0.5em auto;
+    /* desde dentro del bloque*/
+    padding: 0.5em;
+  
+  }
+  #titulo{
+    height: 8%;
+    background: #571006;
+  
+    margin:0.4em;
+    border-radius: 0 20% / 0 100%;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Brush Script MT';
+    font-size: 6em;
+    color:white;
+  
+  
+  }
+  
+  .plato{
+  height: 24%;
+  background-color:black;
+  /* Arriba | Derecha | Abajo | Izquierda */
+  margin:2em 2em 0em 2em;
+  border: 2px  ;
+  border-style: solid;
+  border-top-color: transparent;
+  border-left-color:transparent;
+  border-right-color: transparent;
+  border-bottom-color:white;
+  }
+  
+  .atras{
+    height: 6%;
+  
+    margin:1.5em 26em 0em 26em;
+     border-radius: 70px;
+      font-size: 1.2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+    }
+  
+  
+  #menu1{
+    height: 90%;
+    width: 62%;
+    background-color: transparent;
+    margin:1em;
+    float: left;
+  }
+  #imagenplato1{
+    height: 90%;
+    width: 32%;
+    background: #a07ad6;
+    margin:1em;
+    float: right;
+    border: 1.5px solid black ;
+  }
+  .titulomenu1{
+    height: 15%;
+    width: 75%;
+    background:#571006;
+    /*sup-izq,sup-derehca,inderecha,infizq*/
+    border-radius: 40px 0px 40px 0px;
+      margin:0.5em 2em 0em ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Brush Script MT';
+      font-size: 2.5em;
+  
+      color: white;
+  
+  }
+  .descripcionmenu{
+    height: 45%;
+    width: 85%;
+    background:transparent;
+    font-size: 20px;
+    color:white;
+      margin:0.7em 3em 0em 1.5em;
+  
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      padding-left: 1em;
+      padding-right:1em;
+      border: 2px;
+      border-style: ridge;
+  
+      border-top-color: white;
+      border-left-color:transparent;
+      border-right-color: transparent;
+      border-bottom-color:white;
+  
+  
+    }
+  .compramenu
+    {
+      height: 20%;
+      width: 90%;
+      background-color: transparent;
+        margin:1em 3em 0em 3em;
+      }
+  .preciomenu{
+    font-family: 'Trebuchet MS', sans-serif;
+   font-size: 1em;
+    height: 100%;
+    width: 25%;
+    background-color:white;
+      float: left;
+      margin:0em 1em 0em 5em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid black;
+      border-radius:60px;
+  
+  }
+  .comprar{
+      font-family: 'Trebuchet MS', sans-serif;
+     font-size: 1em;
+    height: 100%;
+    width: 35%;
+    background-color:white;
+      float: left;
+      margin:0em 1em 0em 3em;
+      display: flex;
+        align-items: center;
+        justify-content: center;
+          border: 3px solid black;
+          border-radius:60px;
+  }
+  /*HASTA AQUI EL MENU 1*/
+  
+  #menu2{
+    height: 90%;
+    width: 62%;
+    background-color: transparent;
+    margin:1em;
+    float: right;
+  }
+  #imagenplato2{
+    height: 90%;
+    width: 32%;
+    background: #a07ad6;
+    margin:1em;
+    float: left;
+      border: 1.5px solid black ;
+  }
+  #titulomenu2{
+    height: 15%;
+    width: 75%;
+      background: #571006;
+    /*sup-izq,sup-derehca,inderecha,infizq*/
+    border-radius: 0px 40px 0px 40px;
+      margin:0.5em 2em 0em ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Brush Script MT';
+      font-size: 2.5em;
+  
+      color:white;
+  }
+  
+  
+  
+  /*HASTA AQUI LA OPCION 2*/
+  
+  #menu3{
+    height: 90%;
+    width: 62%;
+    background-color: transparent;
+    margin:1em;
+    float: left;
+  }
+  #imagenplato3{
+    height: 90%;
+    width: 32%;
+    background: #a07ad6;
+    margin:1em;
+    float: right;
+      border: 1.5px solid black ;
+  }

@@ -39,7 +39,7 @@ function pasar2(){
        pasar2();
 }
 function pasar3(){
-    var elem4=document.getElementById('registrodedatos');
+    var elem4=document.getElementById('seccionbebidas');
     elem4.style.display = "block";
     var elem5 =document.getElementById('primerscreen');
     elem5.style.display = "none";
@@ -60,8 +60,8 @@ function pasar5(){
     elem6.style.display = "block";
     var elem7 =document.getElementById('primerscreen');
     elem7.style.display = "none";
-    var elem8 =document.getElementById('registrodedatos');
-    elem8.style.display = "none";
+    var elem9 =document.getElementById('registrodedatos');
+    elem9.style.display = "none";
     
 
    }
