@@ -56,16 +56,14 @@ function pasar4(){
         pasar4();
    }
 function pasar5(){
-    var elem6=document.getElementById('ultimoscreen');
+    var elem6=document.getElementById('primerscreen');
     elem6.style.display = "block";
-    var elem7 =document.getElementById('primerscreen');
+    var elem7 =document.getElementById('platosfuertes');
     elem7.style.display = "none";
-    var elem9 =document.getElementById('registrodedatos');
-    elem9.style.display = "none";
     
 
    }
-   document.getElementById('boton5').onclick = function (){
+   document.getElementById('botonpasar').onclick = function (){
        pasar5();
 }
  
