@@ -1,7 +1,9 @@
-#platosfuertes{display: none;}
-#ultimoscreen {display:none}
-#segundoscreen{display: none}
-#screenpostres{display:none}
+#platosfuertes{display: none};
+#seccionbebidas{display: none};
+#ultimoscreen {display:none};
+#segundoscreen{display: none};
+#screenpostres{display:none};
+#datos{display: none;}
 #imagen{ position:fixed; right: 200px; top:20px;
      height: 200px ; width: 300px;
 }
@@ -148,15 +150,16 @@ form .nombre{
     position: relative;
     margin: 45px;   
 }
-input{
+input.controls{
     background: none;
-    color: #c6c6c6;
+    color:#c6c6c6;
     font-size: 18px;
     padding: 10px 10px 10px 10px;
     display: block;
     width: 100%;
     border:none;
-    border-bottom:1px solid;
+    border-bottom: 1px solid;
+    
 }
 input:focus{
     outline:none;
@@ -317,6 +320,7 @@ label{
           border: 3px solid black;
           border-radius:60px;
   }
+ 
   /*HASTA AQUI EL MENU 1*/
   
   #menu2{

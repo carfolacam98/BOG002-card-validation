@@ -68,6 +68,45 @@ function pasar5(){
    document.getElementById('boton5').onclick = function (){
        pasar5();
 }
+
+function devolver(){
+    var elem10=document.getElementById('primerscreen');
+    elem10.style.display = "block";
+    var elem11 =document.getElementById('ultimoscreen');
+    elem11.style.display = "none";
+    /*var elem12 =document.getElementById('registrodedatos');
+    elem12.style.display = "none";
+    var elem13 =document.getElementById('platosfuertes');
+    elem13.style.display = "none";
+    var elem14 =document.getElementById('screenpostres');
+    elem14.style.display = "none";
+    var elem15 =document.getElementById('seccionbebidas');
+    elem15.style.display = "none";*/
+    
+   }
+   document.getElementById('atras').onclick = function (){
+       devolver();
+}
+function pasar(){
+    var elem10=document.getElementById('datos');
+    elem10.style.display = "block";
+    var elem10=document.getElementById('form');
+    elem10.style.display = "block";
+    var elem11 =document.getElementById('ultimoscreen');
+    elem11.style.display = "none";
+    var elem12 =document.getElementById('registrodedatos');
+    elem12.style.display = "none";
+    var elem13 =document.getElementById('platosfuertes');
+    elem13.style.display = "none";
+    var elem14 =document.getElementById('screenpostres');
+    elem14.style.display = "none";
+    var elem15 =document.getElementById('seccionbebidas');
+    elem15.style.display = "none";
+    
+   }
+   document.getElementById('botonpasar').onclick = function (){
+       pasar();
+}
  
  /*function pasar2(){
      var elem3=document.getElementById('segundoscreen');
