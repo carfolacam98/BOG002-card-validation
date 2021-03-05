@@ -1,9 +1,7 @@
-#platosfuertes{display: none};
-#seccionbebidas{display: none};
-#ultimoscreen {display:none};
-#segundoscreen{display: none};
-#screenpostres{display:none};
-#datos{display: none;}
+#platosfuertes{display: none;}
+#ultimoscreen {display:none}
+#segundoscreen{display: none}
+#screenpostres{display:none}
 #imagen{ position:fixed; right: 200px; top:20px;
      height: 200px ; width: 300px;
 }
@@ -80,8 +78,8 @@ h1{
     height:100px ;
     box-sizing: border-box;
     box-align: center;
-    border: none; bottom: 90px; left: 450px; 
-    position: fixed; 
+    border: none; bottom: 40px; left: 100px; 
+    position: absolute; 
     
 }
 #boton5{
@@ -89,8 +87,8 @@ h1{
     height:100px ;
     box-sizing: border-box;
     box-align: center;
-    border: none;  bottom: 90px; right: 480px;
-    position: fixed;
+    border: none;  bottom: 40px; right: 100px;
+    position: absolute;
    
 
 }
@@ -104,20 +102,23 @@ h1{
     border: none;
     
 }
-#datos{background:#D9BD89;
-    background:linear-gradient(to right,#D9BD89,#D98032);
-    background: -webkit-linear-gradient(to right,#D9BD89,#D98032);
-    width: 100%; height: 650px;
+#datos{background:#571006;
+    
+    width: 1200px; height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     display: none;
+    position: center;
+    background-color:black;
+    border: 5px solid #571006;
+    margin:0.5em auto;
+    padding: 0.5em;
+
 }
 h4{text-align: center;
     font-size: 700;
-    background:#C09CD9;
-    background:linear-gradient(to right,#C09CD9,#04C4D9);
-    background: -webkit-linear-gradient(to right,#C09CD9,#04C4D9);
+    background:#571006;
     box-align: center;
     width: 100%;
     height: 50px;
@@ -125,7 +126,8 @@ h4{text-align: center;
     margin-bottom: 16px;
     text-align: center;
     font-size: xx-large;
-    font-style: italic
+    font-family: 'Brush Script MT';
+    color:white;
 }
 form{
     background: white ;
@@ -136,13 +138,11 @@ form{
     height:400px;
     display:none;
     position: relative;
-    top:100px ;
-    left: 400px;
-   
-
+    top:30px ;
+    left: 350px;
 }
 .form{ width: 500px;
-    height:400px ;
+    height:600px ;
     margin: auto;
     position: center center;
     
@@ -152,15 +152,29 @@ form .nombre{
     position: relative;
     margin: 45px;   
 }
-input.controls{
+form p{
+    text-align: center;
+}
+#nombres{
     background: none;
-    color:#c6c6c6;
+    color: #c6c6c6;
     font-size: 18px;
     padding: 10px 10px 10px 10px;
     display: block;
     width: 100%;
     border:none;
-    border-bottom: 1px solid;
+    border-bottom:1px solid;
+
+}
+#nombres1{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom:1px solid;
     
 }
 input:focus{
@@ -322,7 +336,6 @@ label{
           border: 3px solid black;
           border-radius:60px;
   }
- 
   /*HASTA AQUI EL MENU 1*/
   
   #menu2{
@@ -375,10 +388,23 @@ label{
     float: right;
       border: 1.5px solid black ;
   }
-<<<<<<< HEAD
-=======
   #botonpasar{ width: 90px;
     height: 70px;
-
   }
->>>>>>> 32f714683f22827aabcc722ae28db871c4951713
+  #botonpasar2{width: 90px;
+    height: 70px;
+  }
+  #botonpasar3{width: 90px;
+    height: 70px;
+  }
+.devuelve{
+    height: 70px;
+    width: 130px;
+    margin:1.5em 26em 0em 26em;
+    border-radius: 70px;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    top: 520px; right: 200px;
+    text-align: center;  
+}

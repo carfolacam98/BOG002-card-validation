@@ -1,9 +1,5 @@
 /* eslint-disable no-console */
 
-
-
-
-
 import validator from './validator.js';
 const botonValidar = document.getElementById('boton');
 botonValidar.addEventListener('click',traernumero);
@@ -55,63 +51,68 @@ function pasar4(){
     document.getElementById('boton4').onclick = function (){
         pasar4();
    }
-function pasar5(){
-    var elem6=document.getElementById('primerscreen');
-    elem6.style.display = "block";
-    var elem7 =document.getElementById('platosfuertes');
-    elem7.style.display = "none";
-    
 
-   }
-   document.getElementById('botonpasar').onclick = function (){
-       pasar5();
-}
+const botoncarrito = document.getElementsByClassName('carrito')
+for (let i = 0; i < botoncarrito.length; i++) {
+    botoncarrito[i].addEventListener("click", () =>{
 
-function devolver(){
-    var elem10=document.getElementById('primerscreen');
-    elem10.style.display = "block";
-    var elem11 =document.getElementById('ultimoscreen');
-    elem11.style.display = "none";
-    /*var elem12 =document.getElementById('registrodedatos');
-    elem12.style.display = "none";
-    var elem13 =document.getElementById('platosfuertes');
-    elem13.style.display = "none";
-    var elem14 =document.getElementById('screenpostres');
-    elem14.style.display = "none";
-    var elem15 =document.getElementById('seccionbebidas');
-    elem15.style.display = "none";*/
-    
-   }
-   document.getElementById('atras').onclick = function (){
-       devolver();
-}
-function pasar(){
     var elem10=document.getElementById('datos');
     elem10.style.display = "block";
-    var elem10=document.getElementById('form');
-    elem10.style.display = "block";
-    var elem11 =document.getElementById('ultimoscreen');
-    elem11.style.display = "none";
-    var elem12 =document.getElementById('registrodedatos');
+    var elem11=document.getElementById('form');
+    elem11.style.display = "block";
+    var elem12=document.getElementById('platosfuertes');
     elem12.style.display = "none";
-    var elem13 =document.getElementById('platosfuertes');
+    var elem13=document.getElementById('seccionbebidas');
     elem13.style.display = "none";
-    var elem14 =document.getElementById('screenpostres');
+    var elem14=document.getElementById('screenpostres');
     elem14.style.display = "none";
-    var elem15 =document.getElementById('seccionbebidas');
-    elem15.style.display = "none";
-    
-   }
-   document.getElementById('botonpasar').onclick = function (){
-       pasar();
+
+    })
 }
- 
- /*function pasar2(){
-     var elem3=document.getElementById('segundoscreen');
-     elem3.style.display = "block";
- }
- document.getElementById('boton1').onclick = function (){
-    pasar2();
- }*/
+const botondevolver = document.getElementsByClassName('devolver')
+for (let i = 0; i < botondevolver.length; i++) {
+    botondevolver[i].addEventListener("click", () =>{
+    var elem8=document.getElementById('primerscreen');
+    elem8.style.display = "block";
+    var elem9=document.getElementById('screenpostres');
+    elem9.style.display = "none";
+    var elem6=document.getElementById('seccionbebidas');
+    elem6.style.display = "none";
+    var elem7 =document.getElementById('platosfuertes');
+    elem7.style.display = "none";
+    var elem10=document.getElementById('datos');
+    elem10.style.display = "none";
+    var elem11 =document.getElementById('form');
+    elem11.style.display = "none";
+
+    })
+}
+function pagotarjeta(){
+    var elem20=document.getElementById('ultimoscreen');
+    elem20.style.display = "block";
+    var elem21=document.getElementById('datos');
+    elem21.style.display = "none";
+    var elem22 =document.getElementById('form');
+    elem22.style.display = "none";
+    var elem23 =document.getElementById('primerscreen');
+    elem23.style.display = "none";
+   }
+   document.getElementById('boton5').onclick = function (){
+       pagotarjeta();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
