@@ -55,24 +55,68 @@ function pasar4(){
     document.getElementById('boton4').onclick = function (){
         pasar4();
    }
-function pasar5(){
-    var elem6=document.getElementById('primerscreen');
-    elem6.style.display = "block";
+
+const botoncarrito = document.getElementsByClassName('carrito')
+for (let i = 0; i < botoncarrito.length; i++) {
+    botoncarrito[i].addEventListener("click", () =>{
+
+    var elem10=document.getElementById('datos');
+    elem10.style.display = "block";
+    var elem11=document.getElementById('form');
+    elem11.style.display = "block";
+    var elem12=document.getElementById('platosfuertes');
+    elem12.style.display = "none";
+    var elem13=document.getElementById('seccionbebidas');
+    elem13.style.display = "none";
+    var elem14=document.getElementById('screenpostres');
+    elem14.style.display = "none";
+
+    })
+}
+const botondevolver = document.getElementsByClassName('devolver')
+for (let i = 0; i < botondevolver.length; i++) {
+    botondevolver[i].addEventListener("click", () =>{
+    var elem8=document.getElementById('primerscreen');
+    elem8.style.display = "block";
+    var elem9=document.getElementById('screenpostres');
+    elem9.style.display = "none";
+    var elem6=document.getElementById('seccionbebidas');
+    elem6.style.display = "none";
     var elem7 =document.getElementById('platosfuertes');
     elem7.style.display = "none";
-    
+    var elem10=document.getElementById('datos');
+    elem10.style.display = "none";
+    var elem11 =document.getElementById('form');
+    elem11.style.display = "none";
 
-   }
-   document.getElementById('botonpasar').onclick = function (){
-       pasar5();
+    })
 }
- 
- /*function pasar2(){
-     var elem3=document.getElementById('segundoscreen');
-     elem3.style.display = "block";
- }
- document.getElementById('boton1').onclick = function (){
-    pasar2();
- }*/
+function pagotarjeta(){
+    var elem20=document.getElementById('ultimoscreen');
+    elem20.style.display = "block";
+    var elem21=document.getElementById('datos');
+    elem21.style.display = "none";
+    var elem22 =document.getElementById('form');
+    elem22.style.display = "none";
+    var elem23 =document.getElementById('primerscreen');
+    elem23.style.display = "none";
+   }
+   document.getElementById('boton5').onclick = function (){
+       pagotarjeta();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
