@@ -74,20 +74,20 @@ h1{
 #seccionbebidas{display: none;}
 
 #boton4{
-    width: 100px;
-    height:100px ;
+    width: 250px;
+    height:250px ;
     box-sizing: border-box;
     box-align: center;
-    border: none; bottom: 40px; left: 100px; 
+    border: none; bottom: 40px; left: 230x; 
     position: absolute; 
     
 }
 #boton5{
-    width: 100px;
-    height:100px ;
+    width: 230px;
+    height:230px ;
     box-sizing: border-box;
     box-align: center;
-    border: none;  bottom: 40px; right: 100px;
+    border: none;  bottom: 48px; right: 30px;
     position: absolute;
    
 
@@ -104,7 +104,7 @@ h1{
 }
 #datos{background:#571006;
     
-    width: 1200px; height: 600px;
+    width: 1200px; height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,76 +116,26 @@ h1{
     padding: 0.5em;
 
 }
-h4{text-align: center;
-    font-size: 700;
-    background:#571006;
-    box-align: center;
-    width: 100%;
-    height: 50px;
-    box-sizing: border-box;
-    margin-bottom: 16px;
-    text-align: center;
-    font-size: xx-large;
-    font-family: 'Brush Script MT';
-    color:white;
-}
-form{
+
+#form{
     background: white ;
     padding: 40px 0;
     box-shadow: 0 0 6px o rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     width: 500px;
-    height:400px;
+    height:300px;
     display:none;
     position: relative;
     top:30px ;
     left: 350px;
 }
-.form{ width: 500px;
-    height:600px ;
-    margin: auto;
-    position: center center;
-    
 
-}
-form .nombre{
-    position: relative;
-    margin: 45px;   
-}
-form p{
+#form p{
     text-align: center;
+    font-size: x-large;
 }
-#nombres{
-    background: none;
-    color: #c6c6c6;
-    font-size: 18px;
-    padding: 10px 10px 10px 10px;
-    display: block;
-    width: 100%;
-    border:none;
-    border-bottom:1px solid;
 
-}
-#nombres1{
-    background: none;
-    color: #c6c6c6;
-    font-size: 18px;
-    padding: 10px 10px 10px 10px;
-    display: block;
-    width: 100%;
-    border:none;
-    border-bottom:1px solid;
-    
-}
-input:focus{
-    outline:none;
-    color: rgba(red, green, blue, alpha);
-}
-label{
-    color:rgba(red, green, blue, alpha);
-    font-size: 20px;
-    position: absolute; 
-}
+
 
 *{
     margin: 0;
@@ -405,6 +355,17 @@ label{
     justify-content: center;
     background-color: white;
     position: fixed;
-    top: 520px; right: 200px;
+    top: 450px; right: 200px;
     text-align: center;  
+}
+#pagoefectivo{background: #571006;
+    padding: 40px 0;
+    box-shadow: 0 0 6px o rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 500px;
+    height:300px;
+    display:none;
+    position: relative;
+    text-align: center;
+    font-size: x-large;
 }
