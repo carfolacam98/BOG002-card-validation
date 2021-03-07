@@ -1,8 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-console */
 
-let nom = prompt('¿Cuál es tu nombre?');
-let direccion = prompt('¿Cuál es tu direccion?')
+
 
 import validator from './validator.js';
 const botonValidar = document.getElementById('boton');
@@ -63,6 +62,12 @@ function pasar4(){
    }
 
 const botoncarrito = document.getElementsByClassName('carrito')
+//esto nos toca arreglarlo para obligar a la persona a hacer eso
+let nom = prompt('¿Cuál es tu nombre?');
+let direccion = prompt('¿Cuál es tu direccion?')
+if (nom==""|| direccion==""){
+    alert("Sin tus datos no se podra enviar el pedido")
+}
 for (let i = 0; i < botoncarrito.length; i++) {
     botoncarrito[i].addEventListener("click", () =>{
 
@@ -70,6 +75,7 @@ for (let i = 0; i < botoncarrito.length; i++) {
     elem10.style.display = "block";
     var elem11=document.getElementById('form');
     elem11.style.display = "block";
+   
     var elem12=document.getElementById('platosfuertes');
     elem12.style.display = "none";
     var elem13=document.getElementById('seccionbebidas');
