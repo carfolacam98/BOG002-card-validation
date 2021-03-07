@@ -1,4 +1,8 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-console */
+
+let nom = prompt('¿Cuál es tu nombre?');
+let direccion = prompt('¿Cuál es tu direccion?')
 
 import validator from './validator.js';
 const botonValidar = document.getElementById('boton');
@@ -44,10 +48,16 @@ function pasar3(){
        pasar3();
    }
 function pasar4(){
-   alert("Su compra ha sido registrada en unos minutos llegara su pedido")
-   let nombre= document.querySelector('ingrese su nombre')
-   console.log(nombre);
+   var elem10=document.getElementById('pagoefectivo');
+   elem10.style.display = "block";
+   var elem5 =document.getElementById('datos');
+    elem5.style.display = "none";
+   document.write("Nombre a quien llegara el pedido:"+" "+ nom+"<br/>"+ "direccion de entrega:"+" " +direccion);
+  
+
 }
+
+   
     document.getElementById('boton4').onclick = function (){
         pasar4();
    }
@@ -96,6 +106,7 @@ function pagotarjeta(){
     elem22.style.display = "none";
     var elem23 =document.getElementById('primerscreen');
     elem23.style.display = "none";
+    
    }
    document.getElementById('boton5').onclick = function (){
        pagotarjeta();

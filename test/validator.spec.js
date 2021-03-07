@@ -47,7 +47,7 @@ describe('validator', () => {
       // escribe aquí tu test
     });
 
-    it.skip('Debería retornar "######orld" para "helloworld"', () => {
+    it('Debería retornar "######orld" para "helloworld"', () => {
       // escribe aquí tu test
     });
   });
