@@ -182,13 +182,20 @@
 
     <section id="ultimoscreen">
         <!-- lo hace permanecer en bloque -->
-    <fieldset >
-      <legend>Escribe tu numero</legend>
-        <br>
-           <!--ID=Establece un indicador único a cada elemento -->
-      Numero de tarjeta:<input  type="text" id="numero"><br><br> 
-       <button id="boton" >validar</button>
-    </fieldset>
+        <div class="contenedorformato">
+          <div><legend>Pago:Tarjeta de credito</legend></div>
+          <form class="formatocredito" id="formatocredito" method="POST" action= "">
+             <div class="controlcredito">
+              <legend>Escribe tu numero</legend>
+              <br>
+              <label >Numero de tarjeta:</label>
+                 <!--ID=Establece un indicador único a cada elemento -->
+            <input  type="text" id="numero"><br><br> 
+             </div>
+             <button id="boton" >validar</button>
+          </form>
+        </div>
+           
   </section>
     <!--<script type="text/javascript" src="app.js"></script>-->
     <script src="index.js" type="module"></script>
