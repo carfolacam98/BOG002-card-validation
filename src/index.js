@@ -63,11 +63,7 @@ function pasar4(){
 
 const botoncarrito = document.getElementsByClassName('carrito')
 //esto nos toca arreglarlo para obligar a la persona a hacer eso
-let nom = prompt('¿Cuál es tu nombre?');
-let direccion = prompt('¿Cuál es tu direccion?')
-if (nom==""|| direccion==""){
-    alert("Sin tus datos no se podra enviar el pedido")
-}
+
 for (let i = 0; i < botoncarrito.length; i++) {
     botoncarrito[i].addEventListener("click", () =>{
 
@@ -82,6 +78,7 @@ for (let i = 0; i < botoncarrito.length; i++) {
     elem13.style.display = "none";
     var elem14=document.getElementById('screenpostres');
     elem14.style.display = "none";
+    
 
     })
 }
@@ -116,6 +113,26 @@ function pagotarjeta(){
    }
    document.getElementById('boton5').onclick = function (){
        pagotarjeta();
+}
+
+function pagoefectivo(){
+    var elem20=document.getElementById('ultimoscreen');
+    elem20.style.display = "block";
+    var elem21=document.getElementById('datos');
+    elem21.style.display = "none";
+    var elem22 =document.getElementById('form');
+    elem22.style.display = "none";
+    var elem23 =document.getElementById('primerscreen');
+    elem23.style.display = "none";
+    let nom = prompt('¿Cuál es tu nombre?');
+    let direccion = prompt('¿Cuál es tu direccion?')
+    if (nom==""|| direccion==""){
+    alert("Sin tus datos no se podra enviar el pedido")
+   }
+    
+   }
+   document.getElementById('boton4').onclick = function (){
+       pagoefectivo();
 }
 
 

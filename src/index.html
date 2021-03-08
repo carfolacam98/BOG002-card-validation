@@ -175,21 +175,42 @@
   
 
     <section id="ultimoscreen">
+      <div id="titulocredito"><h7>Pago:Tarjeta de credito</h7></div>
+      <br><br>
         <!-- lo hace permanecer en bloque -->
         <div class="contenedorformato">
-          <div id="titulotarjeta"><h7>Pago:Tarjeta de credito</h7></div>
-          <form class="formatocredito" id="formatocredito" method="POST" action= "">
+          
+          <form class="formatocredito" id="formatocredito"> <!-- method="POST" action= "" --> 
              <div class="controlcredito">
-              <legend>Escribe tu numero</legend>
-              <br>
-              <label >Numero de tarjeta:</label>
+              
+              <br><br>
+              <label >Nombre:</label>
+              <input  type="text" id="nombreusuario" required /> 
+              <br> <br>
+              <label >Dirección:</label>
+              <input  type="text" id="direccionusuario" required /> 
+              <br> <br>
+              <label >Número de tarjeta:</label>
+              
                  <!--ID=Establece un indicador único a cada elemento -->
-            <input  type="text" id="numero"><br><br> 
+                 <input  type="text" id="numero"  minlength="15" maxlength="16" required > 
+            <br><br> 
+            <div class="expiracion">
+              <label>Fecha de expiración:
+              <input  type="text" id="exp" placeholder="MM/AA"  minlength="4" maxlength="4" required  > 
+            </label><br>
+              <label>Código verificación:
+              <input  type="text" id="codexp" placeholder="CCV"  minlength="3" maxlength="3" required  > 
+            </label>
+            </div>
+            <br><br><br>
+            <button type="submit" id="boton" >Validar</button>
              </div>
-             <button id="boton" >validar</button>
-          </form>
+             <br><br>
+            
+          
         </div>
-           
+      </form> 
   </section>
     <!--<script type="text/javascript" src="app.js"></script>-->
     <script src="index.js" type="module"></script>
