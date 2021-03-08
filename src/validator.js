@@ -31,16 +31,18 @@ const isValid= (numerodetarjeta)=> {
          alert("su tarjeta es valida")
        }
        else{alert("su tarjeta NO es invalida")}
+       return true
       }
        
     else{
      alert("NOP");
+     return false
    }
 
   if (numero== "") {
     alert("Debes introducir un numero");
   }
-  return sumafor
+  
   }
 
 
