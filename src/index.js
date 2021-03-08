@@ -51,7 +51,7 @@ function pasar4(){
    elem10.style.display = "block";
    var elem5 =document.getElementById('datos');
     elem5.style.display = "none";
-   document.write("Nombre a quien llegara el pedido:"+" "+ nom+"<br/>"+ "direccion de entrega:"+" " +direccion);
+   document.getElementById("pago").innerHTML="Nombre a quien llegara el pedido:"+" "+ nom+"<br/>"+ "direccion de entrega:"+" " +direccion;
   
 
 }
@@ -84,6 +84,7 @@ for (let i = 0; i < botoncarrito.length; i++) {
     elem14.style.display = "none";
 
     })
+    
 }
 const botondevolver = document.getElementsByClassName('devolver')
 for (let i = 0; i < botondevolver.length; i++) {
