@@ -19,22 +19,18 @@ console.log(validator.maskify(numero))
     document.getElementById('resu').innerHTML="Tu tarjeta "+validator.maskify(numero)+ " ha sido validada exitosamente ";
     var elem=document.getElementById('aceptada');
     elem.style.display = "block";
-    document.getElementById('compra').innerHTML="Tu pedido va en camino ";
-    var elem3=document.getElementById('carro');
-    elem3.style.display = "block";
-   
     var elem2=document.getElementById('rechazada');
      elem2.style.display = "none";
 
 
 
  }else{document.getElementById('resu').innerHTML="Su numero de tarjeta "+ validator.maskify(numero)+" es invalido"
- var elem2=document.getElementById('rechazada');
- elem2.style.display = "block";
- var elem=document.getElementById('aceptada');
- elem.style.display = "none";}
- var elem3=document.getElementById('carro');
-    elem3.style.display = "none";
+ var elem6=document.getElementById('rechazada');
+ elem6.style.display = "block";
+ var elem7=document.getElementById('aceptada');
+ elem7.style.display = "none";}
+ var elem8=document.getElementById('carro');
+    elem8.style.display = "none";
 }
 //const botonpasar = document.getElementById('boton1');
 //botonpasar.addEventListener('click',pasar1);
@@ -150,10 +146,13 @@ function validar(){
    document.getElementById('boton').onclick=function(){
        validar()
    }
-  
-     
-      
-   
-  
-   
+   function aceptar(){    
+    var elem40=document.getElementById('ultimoscreen');
+    elem40.style.display ="block";
+    var elem41=document.getElementById('modal');
+    elem41.style.display ="none";
+}
 
+   document.getElementById('aceptar').onclick=function(){
+       aceptar()
+   }
