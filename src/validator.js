@@ -14,37 +14,37 @@ const isValid= (numerodetarjeta)=> {
     
      for (var i in lista){
        listn[i]=parseInt(lista[i]) 
-     }
+     };
               
      for (var i in listn){
       listn[i]=parseInt(lista[i]) 
        if (i%2==0){
-         listn[i]=2*listn[i]}
+         listn[i]=2*listn[i]};
 
        if (listn[i]>9){
           var n1=listn[i]%10
           var n3= parseInt(listn[i]/10)
           listn[i]= n3+ n1
-      }
+      };
       sumafor=sumafor+listn[i]
-      }
+      };
        if(sumafor%10==0){
-         alert("su tarjeta es valida")
-       }
-       else{alert("su tarjeta NO es invalida")}
-       return true
-      }
+        return true
+       }else{return false}
        
-    else{
-     alert("NOP");
-     return false
-   }
+        
+      }
+      else{
+        alert("Numero de caracteres invalido,recuerde que deben ser entre 15 y 16 caracteres");
+      };
+       
+    
 
   if (numero== "") {
     alert("Debes introducir un numero");
   }
   
-  }
+  };
 
 
 
