@@ -22,7 +22,9 @@ El proyecto se desarrollo pensando en cualquier tipo de usuario, enfocadas en re
 ### Sketch original
 El sketch original se hizo directamente en la app [Canva] se podra visualizar dandole click al siguiente link (https://www.canva.com/design/DAEWgKG4A8A/4pot3AChJCSn0pTaLoYxxg/view?utm_content=DAEWgKG4A8A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
 ### Sketch final
-
+Las imagenes de el diseño final se muestran a continuación.
+https://github.com/carfolacam98/BOG002-card-validation/blob/main/imagen1readme.PNG
+https://github.com/carfolacam98/BOG002-card-validation/blob/main/imagen2readme.PNG
 ## 3. Feedback
 
 Aún no recibido.
