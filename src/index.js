@@ -14,6 +14,7 @@ validator.isValid(numero)
 console.log(validator.isValid(numero))
 validator.maskify(numero)
 console.log(validator.maskify(numero))
+
 }
 //const botonpasar = document.getElementById('boton1');
 //botonpasar.addEventListener('click',pasar1);
@@ -51,8 +52,13 @@ function pasar4(){
    elem10.style.display = "block";
    var elem5 =document.getElementById('datos');
     elem5.style.display = "none";
-   document.getElementById("pago").innerHTML="Nombre a quien llegara el pedido:"+" "+ nom+"<br/>"+ "direccion de entrega:"+" " +direccion;
-  
+let nom = prompt('¿Cuál es tu nombre?');
+let direccion = prompt('¿Cuál es tu direccion?')
+if (nom==""|| direccion==""){
+    alert("Sin tus datos no se podra enviar el pedido");
+}
+   document.getElementById("pago").innerHTML="Nombre a quien llegara el pedido:"+" "+ nom+"<br/>"+ "Direccion de entrega:"+" " +direccion;
+
 
 }
 
@@ -63,11 +69,7 @@ function pasar4(){
 
 const botoncarrito = document.getElementsByClassName('carrito')
 //esto nos toca arreglarlo para obligar a la persona a hacer eso
-let nom = prompt('¿Cuál es tu nombre?');
-let direccion = prompt('¿Cuál es tu direccion?')
-if (nom==""|| direccion==""){
-    alert("Sin tus datos no se podra enviar el pedido")
-}
+
 for (let i = 0; i < botoncarrito.length; i++) {
     botoncarrito[i].addEventListener("click", () =>{
 
@@ -82,6 +84,8 @@ for (let i = 0; i < botoncarrito.length; i++) {
     elem13.style.display = "none";
     var elem14=document.getElementById('screenpostres');
     elem14.style.display = "none";
+    
+    
 
     })
     
@@ -118,19 +122,18 @@ function pagotarjeta(){
    document.getElementById('boton5').onclick = function (){
        pagotarjeta();
 }
+function validar(){    
+    var elem40=document.getElementById('modal');
+    elem40.style.display ="block";
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   document.getElementById('boton').onclick=function(){
+       validar()
+   }
+  
+     
+      
+   
+  
+   
 

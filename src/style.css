@@ -368,11 +368,101 @@ h1{
     position: relative;
     text-align: center;
     font-size: x-large;
-    border:2px solid black;
-    left: 50%; top: 50%; right: 50%; bottom: 50%;
-   
+    left: 400px;
+    top: 150px;
+    border: 4px  solid #571006 ;
+    
 }
-#imagencamion{width: 200px;
-  height:200px;
+#imagencamion{
+  width: 200px;
+  height: 200px;
+  
+}
+#ultimoscreen{
+  
+  background-color: #571006;
+  width: 600px; height: 650px;
+  margin:0.5em auto;
+    /* desde dentro del bloque*/
+    padding: 1em 2em 2em 5em;
+    position: absolute;
+    z-index: 0;
+    right:300px;
+    top: 0;
+    
+    
+}
+#titulocredito{
+  color:white;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  font-family: 'Brush Script MT';
+    font-size: 3em;
+  
+     
+
+}
+.contenedorformato{
+  background-color: white;
+  width: 90%;height: 70%;
+  border-radius: 20%;
+  border:solid black 2px;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  
+}
+.controlcredito{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+.expiracion{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 5em;
+  font-size: large;
+  
+}
+#boton{
+  color: white;
+  background-color: black;
+  font-size: medium;
+  border-radius: 10%;
+  width: 7em;
+  height: 2em;
+}
+
+#modal{
+ 
+  position: fixed;
+  z-index: 1000%;
+  width: 100%;
+  height: 100vw;
+  top: 0; left: 0;
+  background-color: rgba(0,0,0.5,0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+#esvalido{
+  width: 500px;
+  height: 500px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 100px;right: 400px;
+  
+  
+  
+
 
 }
