@@ -1,3 +1,4 @@
+/* eslint-disable no-unreachable */
 /* eslint-disable no-redeclare */
 const isValid= (numerodetarjeta)=> {
   var lista=Array.from( numerodetarjeta)
