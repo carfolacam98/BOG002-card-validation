@@ -24,7 +24,8 @@ El sketch original se hizo directamente en la app [Canva] se podra visualizar da
 ### Sketch final
 Las imagenes de el diseño final se muestran a continuación.
 ![Alt text](https://github.com/carfolacam98/BOG002-card-validation/blob/main/imagen1readme.PNG?raw=true "Optional Title") 
-https://github.com/carfolacam98/BOG002-card-validation/blob/main/imagen2readme.PNG
+![Alt text](https://github.com/carfolacam98/BOG002-card-validation/blob/main/imagen2readme.PNG?raw=true "Optional Title") 
+
 ## 3. Feedback
 
 Aún no recibido.
