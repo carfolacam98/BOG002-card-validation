@@ -20,7 +20,7 @@ Este proyecto trata sobre una página de comidas en la cual se puede hacer un pe
 El proyecto se desarrollo pensando en cualquier tipo de usuario, enfocadas en realizar señalizaciones fáciles de entender y creando una interfaz amigable. La pagina permite elegir la opción de comida de diferentes escenarios a escoger pero aun no se crea un sistema que permita la compra realmente, hasta el momento únicamente cumple con la función de validar la tarjeta de crédito.
 
 ### Sketch original
-El sketch original se hizo directamente en la app [Canva] (https://www.canva.com/design/DAEWgKG4A8A/4pot3AChJCSn0pTaLoYxxg/view?utm_content=DAEWgKG4A8A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
+El sketch original se hizo directamente en la app [Canva] se podra visualizar dandole click al siguiente link (https://www.canva.com/design/DAEWgKG4A8A/4pot3AChJCSn0pTaLoYxxg/view?utm_content=DAEWgKG4A8A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
 ### Sketch final
 
 ## 3. Feedback
